@@ -59,3 +59,4 @@ Whether you run a high-traffic portal, a streaming/STB platform, or a managed we
 
 Interested in deploying **Bot Killer** on your infrastructure, tuning thresholds for your traffic, or discussing licensing and support?  
 Reach out directly via message or through your preferred contact channel with your web-server stack (`Nginx` / `Apache`) and main traffic challenges.
+apolon2025@tutamail.com
