@@ -3,6 +3,25 @@
 > **⚡ Automated `Nginx` & `Apache` defense for portals, web apps, and streaming/STB platforms**  
 > Combines temporary bans, rolling-window repeat-offender escalation to permanent bans, automated datacenter/VPN list enrichment, synchronized service reloads, `dry-run` safety, and a **live online dashboard** for real-time operational monitoring.
 
+
+## 🛡️ Quick Architecture Flow
+
+1. **📥 Traffic and Logs**
+   - Reads portal, web, and STB traffic and logs (`Nginx` and `Apache`).
+
+2. **🔍 Detection and Pattern Analysis**
+   - Auth and STB brute-force bursts
+   - MAC rotation and single-ID evasion (IP-level tracking)
+   - Bots, scanners, and abusive requests
+   - Datacenter and VPN source enrichment
+
+3. **⚖️ State Engine and Rolling-Window History**
+   - Temporary bans
+   - Repeat-offender escalation -> Permanent bans
+
+4. **🚀 Enforcement and Live Dashboard**
+   - `Nginx` and `Apache` rule sync and safe service reload (`dry-run` ready)
+   - Live online dashboard for real-time operational monitoring
 ---
 
 ## 🎯 What It Protects Against
