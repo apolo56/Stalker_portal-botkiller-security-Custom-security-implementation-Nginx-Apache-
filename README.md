@@ -23,7 +23,7 @@
    - `Nginx` and `Apache` rule sync and safe service reload (`dry-run` ready)
    - Live online dashboard for real-time operational monitoring
 ---
-
+![Bot Killer Dashboard](assets/dashboard.png)
 ## 🎯 What It Protects Against
 
 | 🛡️ Attack Vector | 🔍 Threat Behavior | ⚙️ How Bot Killer Responds |
